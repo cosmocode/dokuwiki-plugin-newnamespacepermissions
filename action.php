@@ -78,7 +78,7 @@ class action_plugin_newnamespacepermissions extends DokuWiki_Action_Plugin {
         $user = $INPUT->server->str('REMOTE_USER');
         $groups = $USERINFO['grps'] ?: ['ALL'];
 
-        if (auth_isMember($allowedToCreateNamespaces, $user, $groups) || auth_ismanager(null, null, true)) {
+        if (auth_isMember($allowedToCreateNamespaces, $user, $groups) || auth_isadmin()) {
             return true;
         }
 
