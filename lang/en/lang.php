@@ -9,8 +9,8 @@
 // $lang['menu'] = 'Your menu entry';
 
 // custom language strings for the plugin
-// $lang['fixme'] = 'FIXME';
-
+$lang['namespace creation not allowed'] = 'You do not have the permission to create a new namespace.';
+$lang['you tried to save'] = 'You tried to save the following text: ';
 
 
 //Setup VIM: ex: et ts=4 :

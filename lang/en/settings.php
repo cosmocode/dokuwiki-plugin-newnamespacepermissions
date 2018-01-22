@@ -6,7 +6,7 @@
  */
 
 // keys need to match the config setting name
-// $lang['fixme'] = 'FIXME';
+ $lang['allow_namespace_creation'] = 'List of users and @groups that are allowed to create new namespaces';
 
 
 

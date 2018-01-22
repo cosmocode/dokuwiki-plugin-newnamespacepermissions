@@ -5,4 +5,4 @@
  * @author Michael Große <dokuwiki@cosmocode.de>
  */
 
-//$conf['fixme']    = 'FIXME';
+$conf['allow_namespace_creation']    = '@user';
