@@ -1,0 +1,7 @@
+base   newnamespacepermissions
+author Michael Große
+email  dokuwiki@cosmocode.de
+date   2018-01-22
+name   newnamespacepermissions plugin
+desc   Restrict which groups are allowed to create new namespaces
+url    https://dokuwiki.org/plugin:newnamespacepermissions
